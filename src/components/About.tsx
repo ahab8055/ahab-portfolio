@@ -6,9 +6,11 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-          dolores numquam iusto Ratione earum ducimus autem id iure pariatur
-          dolorum quae maiores.
+          MERN Stack Developer with 5 years of experience in building and
+          deploying web applications using MongoDB, Express.js, React.js, and
+          Node.js. Skilled in creating scalable solutions, implementing RESTful
+          APIs, and collaborating with cross-functional teams. Committed to
+          continuous learning and staying current with industry trends.
         </p>
       </div>
     </div>
