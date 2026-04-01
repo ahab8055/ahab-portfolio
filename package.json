@@ -2,6 +2,7 @@
   "name": "ahab-portfolio",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://ahab8055.github.io/ahab-portfolio",
   "type": "module",
   "scripts": {
     "dev": "vite --host",
@@ -9,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@gsap/react": "^2.1.1",
@@ -42,6 +43,5 @@
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.0.1",
     "vite": "^5.4.1"
-  },
-  "homepage": "https://ahab8055.github.io/ahab-portfolio"
+  }
 }
