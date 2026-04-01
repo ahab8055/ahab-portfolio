@@ -1,6 +1,6 @@
 /// <reference types="vite/client" />
 
-declare module "gsap-trial/SplitText" {
+declare module "gsap/SplitText" {
   export class SplitText {
     chars: Element[];
     words: Element[];
