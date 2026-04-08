@@ -9,7 +9,7 @@ const projects = [
     name: "Gradcut",
     category: "Streaming / Microservices",
     tools: "Kubernetes, Node.js, FFmpeg, JavaScript",
-    image: "/images/gradcut.png",
+    image: `${import.meta.env.BASE_URL}images/gradcut.png`,
   },
   {
     name: "EOS",
@@ -108,7 +108,7 @@ const Work = () => {
                 <p>{project.tools}</p>
               </div>
               <WorkImage
-                image={project.image || "/images/placeholder.webp"}
+                image={project.image || `${import.meta.env.BASE_URL}images/placeholder.webp`}
                 alt={project.name}
               />
             </div>
