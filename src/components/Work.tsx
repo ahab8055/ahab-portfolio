@@ -9,17 +9,19 @@ const projects = [
     name: "Gradcut",
     category: "Streaming / Microservices",
     tools: "Kubernetes, Node.js, FFmpeg, JavaScript",
-    image: `${import.meta.env.BASE_URL}images/gradcut.png`,
+    image: `${import.meta.env.BASE_URL}images/projects/gradcut.png`,
   },
   {
     name: "EOS",
     category: "Live Streaming / AI Transcription",
     tools: "Node.js, Pulumi, AWS, TypeScript",
+    image: `${import.meta.env.BASE_URL}images/projects/eos.png`,
   },
   {
-    name: "Project Ronny Innovation",
+    name: "TamTracker",
     category: "E-Commerce Store Management",
-    tools: "React, Node.js, Express, MongoDB, CRON",
+    tools: "Next.js, AWS SST, Postgres, Drrizle, CRON, OpenAI",
+    image: `${import.meta.env.BASE_URL}images/projects/tamtracker.png`,
   },
   {
     name: "3pl Terminal",
@@ -34,7 +36,8 @@ const projects = [
   {
     name: "Ms Medi",
     category: "Medical POS System",
-    tools: "React, Node.js, Express, MongoDB",
+    tools: "React, Node.js, Express, MongoDB, Material UI",
+    image: `${import.meta.env.BASE_URL}images/projects/msmedi.png`,
   },
   {
     name: "Junity",
