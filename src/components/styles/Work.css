@@ -88,6 +88,30 @@
 .work-info > p {
   width: 90%;
 }
+.work-metric {
+  font-weight: 200;
+  color: #adacac;
+  margin: 12px 0 0;
+  width: 90%;
+  font-size: inherit;
+}
+.work-links {
+  display: flex;
+  gap: 16px;
+  margin-top: 14px;
+  flex-wrap: wrap;
+}
+.work-links a {
+  color: inherit;
+  font-size: 15px;
+  font-weight: 400;
+  border-bottom: 1px solid #adacac;
+  transition: color 0.2s, border-color 0.2s;
+}
+.work-links a:hover {
+  color: var(--accentColor);
+  border-color: var(--accentColor);
+}
 .work-image {
   display: flex;
   width: 100%;

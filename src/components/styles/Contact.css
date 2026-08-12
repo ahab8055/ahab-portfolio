@@ -9,6 +9,50 @@
   text-transform: uppercase;
   margin: 0;
 }
+.contact-availability {
+  margin: 30px 0 40px;
+  max-width: 720px;
+}
+.contact-availability-title {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+.contact-availability-rate {
+  margin: 10px 0 0;
+  font-size: 16px;
+  font-weight: 200;
+  color: #adacac;
+}
+.contact-cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 20px;
+}
+a.contact-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 18px;
+  font-weight: 400;
+  border-bottom: 1px solid #ccc;
+  color: inherit;
+  transition: color 0.2s, border-color 0.2s;
+}
+a.contact-cta:hover {
+  color: var(--accentColor);
+  border-color: var(--accentColor);
+}
+a.contact-cta-github {
+  color: var(--accentColor);
+  border-color: var(--accentColor);
+}
+a.contact-social-github {
+  color: var(--accentColor);
+  border-bottom-color: var(--accentColor);
+}
 .contact-flex {
   display: flex;
   justify-content: space-between;
@@ -72,6 +116,12 @@ a.contact-social {
   }
 }
 @media only screen and (max-width: 900px) {
+  .contact-availability-title {
+    font-size: 18px;
+  }
+  a.contact-cta {
+    font-size: 16px;
+  }
   .contact-flex {
     flex-direction: column;
     gap: 40px;
